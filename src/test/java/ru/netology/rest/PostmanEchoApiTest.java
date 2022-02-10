@@ -20,6 +20,6 @@ class PostmanEchoApiTest {
       //Проверки
       .then()
           .statusCode(200)
-              .body("data", equalTo("Смольный не отвечает"));
+              .body("data", equalTo("Смольный ответьте"));
     }
 }
